@@ -12,36 +12,31 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/bg_edit_text"
         android:ems="10"
         android:hint="Enter Your Email"
         android:inputType="textPostalAddress"
-        android:paddingLeft="@dimen/padding_margin_medium"
-        android:paddingRight="@dimen/padding_margin_medium"
+        android:paddingLeft="@dimen/padding_margin_large"
+        android:paddingRight="@dimen/padding_margin_large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etPasswordLogin"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/bg_edit_text"
         android:ems="10"
         android:hint="Enter your password"
         android:inputType="textPassword"
-        android:paddingLeft="@dimen/padding_margin_medium"
-        android:paddingRight="@dimen/padding_margin_medium"
+        android:paddingLeft="@dimen/padding_margin_large"
+        android:paddingRight="@dimen/padding_margin_large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmailLogin" />
@@ -61,16 +56,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPasswordLogin" />
+
     <TextView
         android:id="@+id/tvBackToRegister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@android:color/white"
-        android:text="Back To Register"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         android:layout_marginTop="@dimen/padding_margin_medium"
+        android:gravity="center"
+        android:text="Back To Register"
+        android:textColor="@android:color/white"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 </android.support.constraint.ConstraintLayout>
